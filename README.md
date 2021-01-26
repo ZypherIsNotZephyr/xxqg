@@ -4,7 +4,7 @@
 所需要库：uiatuomator2，PIL，aircv，aip（百度提供的图片识别api），requests（用于更新题库）
 
 Model.py:封装了各类函数
-其中do_image函数调用百度的接口，如有需要请自行注册（https://ai.baidu.com/tech/ocr/general）免费
+其中do_image函数调用百度的接口（免费），如有需要请自行注册https://ai.baidu.com/tech/ocr/general
 
 function1.py:挑战答题模块
 1.ui2并未提供.xpath的随机点击，为了防止固定点点击被检测，采用图片像素匹配随机定位，所以未适配所有分辨率，默认1080×2400，如需要请手调get_xp()函数
