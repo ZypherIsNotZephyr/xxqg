@@ -1,5 +1,9 @@
-# xxqg
-学习强国自动化答题
+# python的自动化测试
+
+# 本项目仅用于学习python，严禁将其用于任何商业用途
+
+# 请端正学习态度，严禁将本项目用于任何形式的刷分行为
+
 
 所需要库：uiautomator2，PIL，aircv，aip（百度提供的图片识别api），requests（用于更新题库）
 
@@ -15,9 +19,3 @@ function1.py:挑战答题
 
 function4.py:争上游/双人答题模块
 
-
-robots.py:题库生成模块
-
-1.该模块同样需要百度的接口
-
-2.所爬取的网站没有robots协议
