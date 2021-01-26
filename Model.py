@@ -77,9 +77,10 @@ def black(img, threshold=200):
 # 二级函数：获取图片文字
 def do_image(swc=True, a=81, b=397, c=998, d=2150):
     # 调用api接口
-    APP_ID = '23543203'
-    API_KEY = 'B5OqE3ol0kqSu8eLtrRcetWF'
-    SECRET_KEY = 'PAnfISF0C98HBeZm6tPvzNHoDjgsNoib'
+    # 需要请自行注册，获得这三类密钥填入即可
+    APP_ID = 'xxxxx'
+    API_KEY = 'xxxxxx'
+    SECRET_KEY = 'xxxxxx'
     client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
     image = Image.open('hh.png')
     # swc=true:对图片进行裁剪+二值化处理
